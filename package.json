@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "php artisan ziggy:generate --types && vite",
+    "build": "php artisan ziggy:generate --types && vite build"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "concurrently": "^9.0.1",
+    "laravel-vite-plugin": "^2.0.0",
+    "terser": "^5.44.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.0.7"
+  },
+  "dependencies": {
+    "@inertiajs/react": "^2.2.15",
+    "@vitejs/plugin-react": "^5.1.0",
+    "lucide-react": "^0.553.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "ziggy-js": "^2.6.0"
+  }
+}
